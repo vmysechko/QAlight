@@ -1,0 +1,5 @@
+I love programming.
+That should be the only stroke in the file.
+I also love finding meaning in large data-sets. 
+I also love creating apps that can run in a browser. 
+Innokentiy
