@@ -20,8 +20,12 @@ def dict_concate(dict_01: dict, dict_02: dict, dict_03: dict):
 
 
 food = {'snack': 'chips', 'meet': 'shashluk', 'vegetables': 'tomatoes'}
-drinks = {'alcohol': 'beer', 'non-alcohol': 'orange_juice'}
+drinks = {'alcohol': 'beer', 'non-alcohol': 'orange juice'}
 dessert = {'cake': 'Napoleon', 'candies': 'Barbariski'}
 
 party = dict_concate(food, drinks, dessert)
-print(party)
+
+print("\nWe prepared next stuff for the party:\n")
+
+for key, value in party.items():
+    print(f"{key.title()}: {value.title()}")
