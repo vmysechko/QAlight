@@ -1,6 +1,6 @@
 def dict_concate(dict_01: dict, dict_02: dict, dict_03: dict):
     """ Function gather the information from 'dict_01', 'dict_02' and
-     'dict_03' into one dictionary
+     'dict_03' into one dictionary.
      :type dict_01: dict
      :type dict_02: dict
      :type dict_03: dict"""
@@ -18,6 +18,7 @@ def dict_concate(dict_01: dict, dict_02: dict, dict_03: dict):
 
     return result
 
+# Example
 
 food = {'snack': 'chips', 'meet': 'shashluk', 'vegetables': 'tomatoes'}
 drinks = {'alcohol': 'beer', 'non-alcohol': 'orange juice'}
